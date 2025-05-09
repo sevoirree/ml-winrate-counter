@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WR Counter Mobile Legend</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Hitung Winrate Mobile Legends</h2>
+
+    <label>Total Match Saat Ini:</label>
+    <input type="text" id="totalMatch" placeholder="Contoh: 200" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+
+    <label>Winrate Sekarang (%):</label>
+    <input type="text" id="currentWR" placeholder="Contoh: 75" oninput="this.value = this.value.replace(/[^0-9.]/g, '')">
+
+    <label>Target Winrate (%):</label>
+    <input type="text" id="targetWR" placeholder="Contoh: 80" oninput="this.value = this.value.replace(/[^0-9.]/g, '')">
+
+    <button onclick="calculateWins()">Hitung Kemenangan</button>
+
+    <div class="result" id="result"></div>
+  </div>
+  <script src ="script.js"></script> 
+</body>
+</html>

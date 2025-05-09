@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dafa553e-a735-4c36-81d9-125e54aa2943/djhc9m2-e3cf08a7-c81e-4486-8080-d1ef014cef31.png/v1/fill/w_1193,h_670,q_70,strp/benedetta_mobile_legends_ducati_skin_4k_art_by_k1ng011011_djhc9m2-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjAwMCIsInBhdGgiOiJcL2ZcL2RhZmE1NTNlLWE3MzUtNGMzNi04MWQ5LTEyNWU1NGFhMjk0M1wvZGpoYzltMi1lM2NmMDhhNy1jODFlLTQ0ODYtODA4MC1kMWVmMDE0Y2VmMzEucG5nIiwid2lkdGgiOiI8PTM1NjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.XtLZHQH8HgrqnNIlc-4Np4VBgcQUzZ24KxK6DuEKCEQ') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    padding: 0 20px;
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ffcc00aa;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+  }
+  
+  input {
+    background-color: #222;
+    color: #ffffff;
+  }
+  
+  button {
+    background-color: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffaa00;
+  }
+  
+  .result {
+    margin-top: 25px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 4px solid #ffcc00;
+    border-right: 4px solid #ffcc00;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: 0 0 10px #ffcc00aa;
+    transition: all 0.5s ease;
+  }
+  
+  /* 🌙 Mode Gelap Otomatis */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #111;
+      color: #eee;
+    }
+  
+    input {
+      background-color: #333;
+    }
+  
+    .container {
+      background-color: rgba(20, 20, 20, 0.8);
+    }
+  }
+  
+  /* 📱 Responsive */
+  @media (max-width: 600px) {
+    .container {
+      margin: 20px 0;
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    input, button {
+      font-size: 14px;
+    }
+  }
+  
